@@ -7,7 +7,7 @@ if [ "$(id -u)" != "0" ]; then
 fi
 
 # List of required files with their licenses
-required_files=("LICENSE" "Makefile" "README.md" "installer" "v" "x11.c")
+required_files=("Makefile" "README.md" "installer" "v" "x11.c")
 
 # Check if all required files are present
 for file in "${required_files[@]}"; do
