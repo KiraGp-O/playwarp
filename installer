@@ -1,8 +1,36 @@
 #!/bin/bash
 
-sudo apt install shc -y
-sudo apt install zenity -y
-sudo shc -f v
-sudo cp v.x /bin/playwarp
-make
-sudo make install
+# Check if the user has access to root
+if [ "$(id -u)" != "0" ]; then
+    echo "This script requires root privileges. Please run it as root."
+    exit 1
+fi
+
+# List of required files with their licenses
+required_files=("LICENSE" "Makefile" "README.md" "installer" "v" "x11.c")
+
+# Check if all required files are present
+for file in "${required_files[@]}"; do
+    if [ ! -f "$file" ]; then
+        echo "Required file '$file' not found."
+        exit 1
+    fi
+done
+
+# Copy README.md to /usr/share/playwarp
+cp ./README.md /usr/share/playwarp
+
+# Install dependencies
+apt install gcc shc zenity -y
+
+# Compile the script
+shc -f v
+
+# Copy the compiled script to /bin/playwarp
+cp v.x /bin/playwarp
+
+# Clean up
+make clean
+
+# Install the compiled script
+make install
