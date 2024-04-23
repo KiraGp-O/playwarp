@@ -6,13 +6,20 @@
 
 ## Features
 
-- Play videos as wallpaper on X11 desktop.
-- Supports a wide range of video formats.
-- Option to loop videos.
-- Configure opacity, audio playback, and more.
-- Random or non-random playback from local directories.
-- Integration with YouTube URLs.
-- Lightweight and easy to use.
+- **Play videos as wallpaper on X11 desktop:** Transform your desktop background into a dynamic video display.
+  
+- **Supports a wide range of video formats:** Enjoy flexibility with support for various video formats, ensuring compatibility with your favorite videos.
+  
+- **Option to loop videos:** Choose whether to loop the video playback seamlessly for continuous enjoyment.
+  
+- **Configure opacity, audio playback, and more:** Customize your wallpaper experience by adjusting opacity, enabling or disabling audio playback, and more.
+  
+- **Random or non-random playback from local directories:** Enhance your desktop ambiance by selecting videos randomly from local directories or specifying a specific video for playback.
+  
+- **Integration with YouTube URLs:** Easily integrate YouTube videos into your desktop background, expanding your wallpaper options to include online content.
+  
+- **
+
 
 ## Installation
 
