@@ -10,7 +10,7 @@ install:
 	install x11 '/usr/local/bin'
 
 uninstall:
-	rm -f '/usr/local/bin/xwinwrap'
+	rm -f '/usr/local/bin/x11'
 
 clean:
 	rm -f x11
