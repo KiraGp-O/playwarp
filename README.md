@@ -65,7 +65,7 @@ PlayWarp uses a configuration file (`warp.config`) to customize various aspects 
 Contributions are welcome! If you have any ideas, bug fixes, or improvements, feel free to open an issue or submit a pull request.
 
 # License
-This project is licensed under the MIT License.
+do what you like with the project
 
 # Author
 Written by KiraGP-O.
@@ -75,5 +75,6 @@ If you encounter any bugs or issues, please report them on the GitHub issues pag
 
 # Support
 For support, questions, or feedback, please contact KiraGP-O.
-
 Feel free to customize it further to better fit your project's specific features and requirements!
+## 
+## end
