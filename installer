@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo apt install shc -y
+sudo apt install zenity -y
+sudo shc -f v
+sudo cp v.x /bin/playwarp
+make
+sudo make install
